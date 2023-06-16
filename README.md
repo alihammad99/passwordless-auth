@@ -1,4 +1,4 @@
-# OTP Authentication Library
+# SMS OTP Authentication Library
 This mini library allows you to send OTP SMS messages to any phone number.
 It builds on top of Express.js framework and D7networks SMS API with JWT.
 
@@ -7,7 +7,8 @@ It builds on top of Express.js framework and D7networks SMS API with JWT.
   JWTSECRET="Any_Secret_Text"
 
 ## API endpoints
-#### '/send-otp': sends sms to a specific phone number.
+#### '/send-otp'
+sends sms to a specific phone number.
 {"phoneNumber":"+9641234567890"}
 
 #### '/verify-otp'
