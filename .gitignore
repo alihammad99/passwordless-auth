@@ -1,0 +1,6 @@
+node_modules/
+.env
+app.js
+phone.js
+package-lock.json
+phone.test.js
